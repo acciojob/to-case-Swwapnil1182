@@ -1,5 +1,6 @@
 function toCase(text) {
   // write your code here
+	if (str=='') return "-"
 	let lower=text.toLowerCase()
 	let upper=text.toUpperCase()
 	return lower+"-"+upper
